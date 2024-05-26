@@ -1,0 +1,2 @@
+var e=document.querySelectorAll("form input"),t=function(e){return e.replace(/([A-Z])/g," $1").split(" ").map(function(e){return e[0].toUpperCase()+e.slice(1)}).join(" ")};e.forEach(function(e){var r=document.createElement("label");r.classList.add("field-label"),r.setAttribute("for",e.id),r.textContent=t(e.name),e.setAttribute("placeholder",t(e.name)),e.parentNode.insertBefore(r,e)});
+//# sourceMappingURL=index.89b73863.js.map
